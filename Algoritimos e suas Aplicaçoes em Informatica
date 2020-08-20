@@ -1,0 +1,43 @@
+ALGORITIMOS E SUAS AOLICAÇÕES EM INFORMATICA
+Voce ja se perguntou pr que é necessario aprender uma forma padronizada de registro das Sequencias Lógicas?
+
+Agora que voce ja começou a entender a função dos algoritimos ,é oportuno dizer que eles são a soçuão de um problema.Vamos esclarecer!  
+O algoritimo não é a solução do problema porque ele é,na realidade,adesrição detalhadas das etapas que devem ser percorridas para se chegar a uma solução.Em outras palavras,é preciso diferenciar a solução (programa) das proposta de solução (algoritimo).
+*ALGORITIMO:> Conjunto de regras e procedimentos lógicos perfeitamente definidos que levam a soluçao de um problema por meio de um numero finito de etapas.*
+Dese modo,o algoritimo tem começo,meio,fim e um objetivo a ser alcançado.Emoutras palavras,o algoritimo deve ser visto como um orjeto do programa,e seu desenvolvimento tem por foco dompletar uma missão de maneira inteligente,logica e eficaz.
+
+EXEMPLO
+Vejamos um exemplo para esclarecer ainda mais oque é e qual é a principal funçã do s algoritimos.
+Voce precisa fazer um bolo de chocolate pela primerira vez(problema) e alguem lhe da  uma receita (algoritimo)
+bolo = (problema) 
+recita = (algoritimo) 
+A receita não e seu bolo,e sim uma descrção de tudo que precisa ser feito para que o bolo fiwue pronto.
+Ao final de todos os passos descritos na recita,se o resultado final for um bolo de chocate,é sinal que a receita(algoritimofoi eficaz.
+Se algo der errado,e voce não obtiver um bolo de chocolate no final do processo,temos duas opções.
+1 :> A recita(algoritimo) não descreveu corretamentamente oque precisava ser feito.
+2 :> O Cozinheiro(computador)"nao seguiu" as intruções corretamente(hipotese certamente incorreta)  
+Partindo da premissa de que o computador sempre executa as ações corretamente,quando um programa não funciona é porque ouve um equivoco na etapa de planejamento (estruturação do algoritimo)
+
+Vamo observar a seguir as etapas necessarias para o desenvolvimento de um programa(software) 
+Por meio do esquema a seguir,podemos perceber a diferença entre etapas de planejamento do programa(estrutura do algoritimo)e se programação(desenvolvimento de código).
+
+ESTUDO DO PROBLEMA 
+Analise do problema  e de seu cotexto,ára identificar a situação,refletir sobre suas caracteristicas e apresentar,as possiveis soluções.
+
+ESTRUTURAÇÃO DO ALGORITIMO 
+Escolha da melhor solução possivel para rsolvver o problema e estruturação da proposta emforma de "projeto de programa"(algoritimo).
+
+DESENVOLVIMENTO DO CODIGO(Programação)
+Escrita do algoritimo a partir das regras e dos padrões de uma linguagem de programação especifica,tal como C#,Java,C,C+,Python,PHP...
+É nessa etapa que ocorre a codificação do algoritimo 
+
+iMPLANTAÇÃO DA SOLUÇÃO 
+implantação do programa em situação de vida rel,para verificar se o problema foi resolvido,e realização de eventuais ajustes(manutenção).
+
+Agora que voce ja entendeu a setapas de desenvolvimento de um software,vamospensar noque é preciso para começãr.
+Para desenvolver um problema fazendo uso do computado,precisamos descrever o problema de forma clara e precisa.
+Primeiro,temos que montar uma sequencia de passos que permita que o problema seja solucipnado de maneira automatica e repetitiva.
+Ja sabemos,mas não custa nada lembrar:essa sequencia de passos é chamda de algoritimo!
+
+No contexto de desenvolvimento de programas,existe mais de uma forma de representar algoritimos.Vamos aprender tres formas diferentes de construir algoritimos,que normalmente são utilizadoas.
+DESCRIÇÃO NARRATIVA,DIAGRAMA DE BLOCOS OU FLUXOGRAMA E PORTUGUES ESTRUTURADO OU PSEUDOCODIGO.
