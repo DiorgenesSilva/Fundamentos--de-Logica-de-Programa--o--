@@ -1,0 +1,30 @@
+ INSTRUÇÕES EM LÓGICA  
+ Desenvolver tecnicas de lógica de programação é uma habilidade necessari apara pessoas que desejma trabalhar com desenvolvimento de sistemas e programas em geral . 
+ Já vimos que a Lógica de programaçãoesta baseada em um raciocinio estabelecido para resolver problemas usando computadores.Desse modo,o racicinio preisa ser descrito por meio de instruções conhecidas como sequencia logicas.
+ SEQUENCIAS LOGICAS:> SequÊncias Logicas são etapas devem ser realizadas para que o objetivo seja atingido. 
+ Em outras palavras,são passos executados ate se atingir a solução de um problema. 
+
+As sequencias lógicas permitem utilizar a lógica para ordenar e corrigir pensamentos ou ações voltado para a solução de problemas.Lembra que essas ações são descritas como instruções? Vamos relembrar oque são as instruções?
+INSTRUÇÕES:> Instruções são informações,ordens ou comandos que indicam ao computador oque ele deve  fazer.
+Uma ordem isolada nao permite a realização do processo completo.Para isso,é necessario,um conjuno de instruções colocada em uma sequencia logica.
+
+Agora,precisamos ver como as instruções funcionam na pratica!A,seguir,vamos acompanhar dois exempos do cotiadiano.
+
+EXEMPLO 1 FAZER OMELETE COM BATATAS FRITAS
+1:Lavar e secar as batatas e ovod
+2:Descascar as batatas
+3:Cortar as batatas em forma de palito 
+ 
+ 
+EXEMPLO 2 IR AO BANCO SACAR DINHEIRO 
+Observe a seguir,a sequencia co dez passos,na ordem que esta apresentada,e reflita se seria possivel realizar esta ação usando o seguinte encadeamento de ações para sacar o dinheiro>Caso nao concorde,na proxima tela,voce tera a oportunidade de numerar as etapas na sequencia logica correta.
+SACAR DINHEIRO NO BANCO
+1:Sair do banco
+2:Aguardar a vez do atendimento 
+3:Entrar e ficar na fila do caixa
+4:Digitar a senha 
+5:Entrar no banco 
+6:Informar o valor a ser retirado 
+7:Procurar a fila do caixa 
+8:Pegar o dinheiro ,o cartao eletronico e o comprovante de saque 9:Inserir o cartao eletronico no caixa
+10:conferiri  o dinheiro 
