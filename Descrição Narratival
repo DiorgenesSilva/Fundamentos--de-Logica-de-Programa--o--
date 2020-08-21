@@ -1,0 +1,16 @@
+DESCRIÇÃO NARRATIVA 
+Agora que voce ja sabe oque são Algoritimos,está na hora de aprender a construi-los.
+Em primeiro lugar,existe mais de uma foma de registrar algoritimos.para entender isso,vamos lembrar as intruções,utilizadas para sacar dinheor do banco  
+1:> ENTRAR NO BANCO 
+2:> PROCURAR FILA DO CAIXA ELETRONICO 
+3:> ENTRAR NA FILA DO CAIXA ELETRONICO 
+4:> AGUARDAR A VEZ DO ATENDIMENTO
+5:> INSERIR CARTÃO ELETRONICO NO CAIXA
+6:> INFORMAR O VALOR A SER RETIRADO 
+7:> DIGITAR A SENHA
+8:> PEGAR O DINHEIRO,O CARTÃO ELETRONICO EO COMPROVANTE DE SAQUE
+9:> CONFERIR O VALOR O DINHEIRO  
+10:> SAIR DO BANCO 
+Essa sequencia de frases curtas,com comandos claros encadeados em ordem lógica,é a forma mais simples de criar algoritimos.
+Esse jeito de eçaborar algoritimos chama descrição Narrativa e é muito usado em documentos manuais de equipamentos,receitas culinarias,bulas de remedio,descrições tipo "faça voce mesmo ",etc.
+A tecnica de descrição narrativa pode ser considerada a mais facil e simples de ser utilizada,pois é  a mais proxima da linguagem que usamos no dia a dia para nos comunicarmos  .
