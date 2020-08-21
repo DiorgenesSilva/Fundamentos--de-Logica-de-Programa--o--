@@ -1,0 +1,17 @@
+DIAGRAMA DE BLOCOS OU FLUXOGRAMA
+Os algoritimos também podem ser representados por um método grafico chamdo Diagrama de Blocos ou Fluxograma.
+O diagrama de blocos é uma forma padronizada e eficaz de representarmos os passos lógicos de um processamento .
+Com o diagrama,podemos definr uma sequencia de simbolos com significado bem defenido.
+Desse modo,a principal fuñção do diagrama é a de facilitar a visualização dos passos de um precessamento.
+
+A aparencia do metodo de diagrama de blocos é bem diferente da aparencia da descrição narrativa.
+Para construir um diagrama de blocos é preciso fazer uso da padronização dos simbolos e das palavras.Esses elementos são capazses de mostrar soluções para qualquer grau de cmplexidade.
+
+LOSANGO = CONDIÇÃO :> O Losango sempre representará uma condição.
+RETANGULO = AÇÃO :> O Retangulo representa sempre uma ação
+SETAS = FLUXO DO PROCESSAMENTO :> A linha com seta representará sempre a direção 
+PALAVRAS = VALOR CONDICIONAL :>  A resposta da condição será sempre um valor condicional:sim ou Não 
+
+os fluxogramas são bastante populares uma vez que seus esquemas são relativamente faceis de entender.Além disso,por meio deles é possivel desenhar soluções de projetos complexos usando pouca escrita .
+nos diagramas de bloco,instrução ou processamento deve ser descrito dentro de umsimbolo gemétrico ode modo resumido .
+Nesse sentido,setas e palavras são usadas para indicar um caminho a ser percorrido,ou seja,o fluxo de processamento.
