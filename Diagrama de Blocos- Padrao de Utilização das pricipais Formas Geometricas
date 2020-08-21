@@ -1,0 +1,41 @@
+DIAGRAMA DE BLOCOS-PADRAO DE UTILIZAÇÃO DAS PRINCIPAIS FORMAS GEOMETRICAS.
+Vamos conhecer os principais simbolos usados na construção de fluxogramas. 
+Preste atenção ! Cada elemento tem função e significados diferentes.
+ 
+01 TERMINAL 
+Indica o ponto de inicio ou termno de uma sequencia lógica.
+Deve ser utilizado com palavra inicio ou fim escrita dentro da figura,
+
+02 VERIFICAÇÃO OU DECISÃO 
+Indica o  ponto de teste(verdadeiro ou falso) ou de tomada de deci~sao (sim ou não). Conta com uma entrada que permite indicar duas saidas diferentes,sendo uma para cada situação/reposta.
+
+03 SETA DE FLUXO 
+Indica o sentido do fluxo de informaçoes  e instruções.deve ser utilizada para conectar todos os simbolos do diagrama.
+
+04 AÇÃO OU PROCESSAMENTO 
+Indica a ação ou um processamento de qualqur tipo.
+Exemplos:
+>Calcular preço final do produto ]
+>Jogar embalagem no lixo 
+
+05 ENTRADA E SAIDA DE DADOS 
+Simbolo generico que indica a entrada ou saida de dados,respectivamente uma leitura/Captura de dados ou uma gravação/apresentação da informação apos o processamento independentemente da forma como essas informações serao inseridas ou disponoblizados aos usuarios.
+>Entrada de dados (via cartão ) 
+>Entrada Manual (Via teclado)
+Exemplo:
+*digitar preço de um produto
+*Entrar/Digitar Nota de Avaliação
+>Saida de Dados (Via Monitor)
+Exemplo:
+*Mostrar/Exibir/apresentar Notas de Alunos
+*Exibir valor total do produto 
+>Saida de Dados (Via impressora)
+Exemplo:
+Imprimir relatorio compra e venda
+*Imprimir recibos de entrega de documento
+
+06 CONECTOR 
+Indica o ponto a partir do qual o algoritimo ou processamento irá continuar em outro lugar,repetindo também,este mesmo simbolo .
+Deve conter um mesmo numero ou uma mesma letra em seu interior ,indicando a saida com sua respectiva entrada no fluxo.
+Funciona como um conector,que tem objetivo de dar continuidade a partes de um mesmo processo que se encontram  escritas em locais separados.
+IMPORTANTE:Se necessario podemos defenir varios conectores de saida do fluxo,mas APENAS UM conector de entrada.
