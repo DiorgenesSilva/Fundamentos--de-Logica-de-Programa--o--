@@ -21,3 +21,70 @@ Escrita do algoritimo apartir das regras e dos padrões de uma linguagem de prog
 
 04 IMPANTAÇÃO DA SOLUÇÃO 
 Implantação do programa em situação de vida real,pra verificar se o problema foi resolvido ,e realização de eventuais ajustes(manutenção)
+
+Agora vejamos como utilizar o portugues estruturado na pratica! Para isso,vamos voltar ao algoritimo de conversão de real em dolar.Nesse caso,primeiro relembraremos o algoritimo usando a descriçao narrativa e,em seguida,veremos com fica o algoritimoo usando o pseudocódigo.
+
+DESCRIÇÃO NARRATIVA 
+1:> Informar o valor disponivel em reais para comprar dolar.
+2:> Informar a cotaçãoo do dolar no dia.
+3:> Dividir o valor disponivel pela cotação do dia.
+4:> Exibir o resultado do calculo para o usuario
+
+PSEUDOCÓDIGO
+Algoritimo Conversão_real_dolar 
+?? rotina que converte um determinado valor em reais em dolares
+      Var 
+      VALOR_REAL,COTAÇÃO_DOLAR,CONVERSÃO:real   
+               VALOR_REAL = 0 
+               COTAÇÃO_DOLAR = 0
+               CONVERSÃO = 0 
+
+Inicio
+       Escreva "Programa para converter reais em dólares"
+       Escreva"Informe o valor disponivel em reais (para comprar dolares) :R$"
+       Leia VALOR_REAL 
+       Escreva "Informe o valor do dólar em reais (cotação do dia) : R$ "
+       Leia COTAÇÃO_DOLAR
+       CONVERSÃO = VALOR_REAL / COTAÇÃO_DOLAR 
+       Escreva "Com essa  quantia será possivel comprar:U$"
+       Escreva CONVERSAO 
+       eSCREVA "Boa Viagem"
+
+     Tal como voce pode perceber ,o pseudocódigo é uma técnica que organiza os algoritimos em blocos formados por comandos escritos.
+     Para isso,são usados,por exemplo,os comandos Leia e Escreva para a iserção de Captura e exibição(apresentação)de dados,respectivamente.
+     Além dos comandos pseudo cosigo permite a declaração de variáveis e expressões aritimeticas.
+
+     Voce notou como o pseudocodigo pe um aforma bastante detalhada de Escrever sequencias Logicas de Intruções e Processamentos. 
+     Nesse sentido, aprincipal caracteristica desse método é ser muito semelhandte ao jeito como as linguagens de programação dão codificadas. E foi justamente o fato de ser muito parecido vom os codigos de programação que fez coom que surgisse o nome pseudocódgo,ou seja,"falso" (ficticio)código.
+     é importante que voce saiba que o pseudocódigo tem grande aceitação entre os programadores.Mas porque sera que isto ocorre?
+     O principal motivo esta no fato de o pseudocodigo,possibilitar uma tradução praticamente direta para qualquer linguagem de programação especifica.
+     Justamente por isso,iremos apresentar a você mais  lgoritimo de pseudocodigo dqui em diante.
+
+     Commo programador da area de informática,voce deverá ser capaz de escrever,intepretar,testar,localizar e resolver erros de lógica tanto em fluxogramas ou em pseudocodigo.
+
+     Forma básica de uma algoritimo em portugues estruturado .
+     Algoritimo < nome_do_algoritimo > 
+      // < explicação resumida do que a rotina ira fazer >
+           Var 
+            <declaração das variaveis e do tipo de informação que elas receberão >
+            Inicio < Instruções e processos encadeados de forma logica >
+
+            Fim
+
+
+Todo algoritimo começa com a definição de um nome de identificação para ele,na primeira linha :< nome_do_algoritimo >
+Na linha de baixo,deve ser feita a declaração de variaveis,cuja palavra reservada éVar. O termo Var é uma redução da palavra "Variavel".Nesse sentido,o termo Var é um marcador,assim como as palavras INICIO,FIM,SE,ENTAO,FAÇA ,CASO,etc.
+Um marcador ou uma palavra reservada sã termos interpretados de forma diferenciada pelos programas.Por isso,nao devem ter outros usos,como nomear variaveis.
+
+Alguns recursos disponiveis na internet podem ser uteis para que voce desenvolva a habilidade de construir,interpretar e corrigir pseudocodigos.
+A seguir,indicamos dois aplicativos que permitem a construção e o teste  de algoritimos escritos em pseudocodigo.Eles são gratuitos e faceis de usar. 
+
+vISUALG 
+(Visualizador de algoritimo)é um programa utiçlizado para edição,interpretação e execução de algoritimos com a linguagem proxima do portugues estruturado,como um proograma normal de computador.
+O softaware é de livre uso e distribuição,além de ser empregado no ensino de programação em varias escolas e universidades,no Brasil e no exterior.
+
+PORTUGOL STUDIO
+É um ambiente para aprender a programar,voltado para os iniciantes em programação que falam o idioma portugues.
+O software possui uma sintaxe facil,diversos exemplos e materiais de apoio ´q aprendizagem.
+Também possibilit a criação de jogos e outras aplicações.
+   
