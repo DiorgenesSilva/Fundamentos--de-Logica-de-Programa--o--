@@ -1,0 +1,23 @@
+PSEUDOCÓDIGO OU PORTUGUES ESTRUTURADO /PORTUGOL
+Pseudocódigo é uma tecnica natural,comum e originario a quem codifica por meio de uma linguagem natural no nosso caso,a lingua portuguesa.Permite a compreensão por parte de qualquer pessoa e NAO exige que nenhum padrão de sintaxe seja seguido na linguagem da programação.
+Agora vamos conhecer  o metodo Pseudocódigo,também chamado de Portugues estruturado.
+O Pseudocódigo usa termos da lingua portuguesa encadeados e organiza de forma parecida com diferentes linguagens de programação.Seu objetivo é simplificar o processo de programação.
+Para atender um algoritimo escrito com Pseudocódigo,voce não precisa ter o conhecimento previo de nenhuma linguagem de programação.
+Nesse tipo de algoritimo,as estruturas logicas são escritas em uma linguagem proxima ao portugues e na sequencia em que devem ser executadas.
+Nos paises em que o idioma pricipal é o portugues,muitos se referem ao pseudo codigo como "Portugol".
+
+Ao contruir um projeto de programa(algoritimo)e pseudocódigo,voce estará representando o encadeamento lógico necessario para resolver um problema da forma mais proxima que existe de uma linguagem de programação;
+O opção pelo pseudocódigo na etapa de estruturação do algoritimo  proporciona um ganho de tempo na etapa de desenvolvimento do código.Parece vantajoso,não?
+E voce se lemba das quatro etapas necessarias para a elaboração de um programa?
+
+01 ESTUDO DO PROBLEMA  
+nálise do problema e de seu contexto,para identificar a situação,refletir sobre suas caracteristicas e apresentar as possiveis soluções.
+
+02 ESTRUTURAÇÃO DO ALGORITIMO 
+Escolha da melhor solução possivel  para resolver o problema da estruturação da proposta em forma de "projeto de programa"(algoritimo)
+
+03 DESENVOLVIMENTO DE CODIGO DE PROGRAMÇÃO 
+Escrita do algoritimo apartir das regras e dos padrões de uma linguagem de programação especifica,tal com  C#,Java,C,C++,VB,Python,PHP.
+
+04 IMPANTAÇÃO DA SOLUÇÃO 
+Implantação do programa em situação de vida real,pra verificar se o problema foi resolvido ,e realização de eventuais ajustes(manutenção)
