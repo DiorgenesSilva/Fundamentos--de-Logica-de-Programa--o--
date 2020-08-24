@@ -1,0 +1,76 @@
+UTILIZAÇÃO DE PSEUDOCÓDIGOS
+Como voce deve ter percebido,a criação de algoritimos em pseudocódigos é relativamente simples,não é mesmo?
+O pseudocódigo é um metodo que não usa estruturas complexas e rigidas como as sintaxes de linguagens de programação ,nem exige ambientes especiais para a edição.
+Em outras palavras,o pseudocódigo pode ser encarado com uma versão similar e simplificada dos códigos de programação,com o beneficio de poder ser escrito em qualquer editor de texto.
+Isso significa que podemos escrever um algoritimo em pseudocodigo usando o Bloco de Notas,por  exemplo.
+Nessa caracteristiica faz o pseudocódigo uma ferramenta útil e simples para elaboração de projetos e programas.  
+
+Agora que voce já entendeu a utilidade do pseudocódigo,vamos analisar a estrutura de um algoritimo em pseudocódigo.
+Nesse exemplo,a rotina deverá definir  os tipos de variaveis relacionadas ao cadastro de um livro,receber os dados do usuário e exibi-los na tela. 
+Exemplo abaixo: 
+
+ALGORITIMO Livro { definição do nome do programa }
+      VAR 
+      CodigoDoLivro : inteiro { Nome da variavel : Tipo da variavel }
+      Titulo, Autor , Edidotora : literal { declaração de variaveis , todas com literal }
+      CodigoDoLivro = 0 
+INICIO
+    Escreva " Este é um programa em pseudocodigo que exibe na tela os dados de um livro"
+    Escreva " Digite o codigo "
+    Leia CodigoDoLivro
+    Escreva " Digite o Titulo do Livro " 
+    Leia Titulo  
+    Escreva "Digite o Autor do Livro "
+    Leia Autor 
+    Escreva " Digite a Edidotora so Livro "
+    Leia Editora 
+    Escreva " O codigo do livro é ", CodigoDoLivro
+    Escreva " O Titulo do Livro é ", Titulo 
+    Escreva " O Autor do Livro é", Autor
+    Escreva " A Edidotora do Livro é ", Edidotora
+FIM
+
+ Voce percebeu como a descrição é clara e de facil compreensão ?
+ Uma das principais vantagens desse método é que ele pode ser entendido por "não programadores" 
+ Com isso,os desenvolvedores podem apresentar ideias e validar sequencias estrutucionais com profissionais que não são da area de programação.
+ Trabalhar com pseudodigo pode ser uma forma muito eficiente.
+
+ A partir de agora, vamos estipular algumas regras de padronização para a construção de um pseudocodigo.
+
+ REGRA 01 
+ Todo algoritimo em pseudocodigo deve ser iniciado com:
+ Algoritimo: NomeDoAlgoritimo
+
+ REGRA 02 
+ O inicio e fim do programa sao limitados pelos marcadores Inicio e Fim,
+
+ REGRA 03 
+ As variaveis são declaradas no inicio do algoritimo,abaixo do   marcador Var,da seguinte forma:
+ NomeDaVariavel: TipoDavariavel
+ 
+ REGRA 04 
+ Os nomes de variaveis nao podem:
+ >Iniciar com numeros( erro:1nome )
+ >Ter espaço ( erro:Nome Completo )
+ >Ter caracteres especiais (',"",ç,- e outros  )
+
+REGRA 05 
+As palavras-reservadas devem ser evitadas:Inicio,Var,se,Senao.
+
+REGRA 06
+Os nomes das variaveis sao "case sensitive"(considera a diferença no uso de letras maiusculas e minusculas).Dessa forma,ao manipularmos variaveis,devemos usar o mesmo nome declarado no inicio,considerando o uso de letras.
+
+REGRA 07  
+O comando Leia deve ser usado para receber(capturar)dados do usuario,fase do processamento conhecida como "Entrada de dados".
+
+REGRA 08 
+O comando Escreva deve ser usado para exibir ( apresentar,mostrar )dados ao usuario,fase do processamento conhecida como "Saida de Dados"
+
+REGRA 09
+Os textos a serem exibidos na tela ou que devam ser inseridos como caracteres dão colodos entre "aspas"(representação universal de um valor literal ou string-"Sistemas").
+
+REGRA 10 
+Os comentarios sobre o codigo podem ser inseridos {entre chaves} (incomum por confundir com agrupamentos) ou inseridos utilizando //(mais comum)no inicio da linha de instruções.O comentario não altera a execução do codigo.Contudo ele é fundamental importancia para documentar e tornar inteligiveis as escolhas de programação realizadas no codigo para outros programadores.
+
+
+As regras são muito importantes,ja que todos elementos do pseudocodigo-e tambem dos codigos-são fundamentais par ao funcionamentoo correto  do programa.Desse modo,entendeur o rigor da padronização eaplica-la é essencial a quem deseja atuar com programação de computadores.
