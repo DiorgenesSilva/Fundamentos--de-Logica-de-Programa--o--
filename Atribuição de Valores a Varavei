@@ -1,0 +1,44 @@
+ATRIBUIÇÃO DE VALORES A VARIAVEIS 
+Ao longo da rotina estabelecida em um algoritimo ou panorama,as variáveis devem receber valores de cordo com o tipo de dado que foi declarado inicialmente. Nesse sentido,se declararmos uma variavel como dado literal ( caractere/string ),não podemos fazer calculos com ela.
+No exemplo pseudocódigo para cadastro de livros  ,associamos o valor digitado pelo usuario ás variaveis.
+
+ALGORITIMO Livro { definição do nome do programa }
+       VAR 
+     CodigoDoLivro: Inteiro 
+INICIO 
+       Escreva "este é um programa em pseudocódigo que exibe na tela os dados de um livro"
+       Codigodolivro = 1
+       Titulo = "Inferno"
+       Autor = "Dan Brown"
+       Editora = "Editora Arqueiro"
+       Escreva "o código do livro é", CodigoDoLivro {irá exibir 1}
+       Escreva "o título do livro é", Titulo {Inferno}
+       Escreva "o autor do livro é", Autor {irá exibir Dan Brown }
+       Escreva "a editora do livro é", Editora {irá exibir Editora Arqueiro}
+FIM
+
+
+Perceba que podemos utilizar o sinal de igual " = ",que Não é Considerado uma Igualdade na Programação,mas sim um sinal de atribuição,para associar valores,ja que o operador tem a função de associar ( atribuir ) um valor a um identificador,um operando,isto é,uma variavel.
+
+Para cada variavel criada no desenvolvimento de um algoritimo,precisamos pensar em tres aspectos:Nome,Tipo e Conteudo.
+
+NOME 
+O nome da variavel deve ser escolhido com cuidado,de forma a dar pistas do tipo de informação que ela vai receber. Nesse sentido ,uma variavel chamada MEDIA_FINAL indica que ela vai receber e armazenar o calculo da media final de alunos.
+Ao receber um conteudo numerico com  casas decimais,fica claro que essa variavel deve ter um nome de facil associação com sua atulização efeitva.Dessa forma,algumas possibilidades de nome são MEDIA_FINAL ou MEDIA_ALUNO.
+
+TIPO 
+Como a nota nao pode ser um valor inteiro,a variavel MEDIA_FINAL deve ser declarada com tipo numero real.
+Se ela for declarada com o tipo numerica inteira e receber um valor 9.75,pogramada podera dar erro.
+Outro problema pode ser o processamento realizado da forma equivocada ao considerar apenas a parte inteira do numero (9)na hora do calculo.
+
+CONTEÚDO 
+E necessario que esse conteudo seja coerente com a natureza da informação que foi defenida no Tipo.
+isso é fundamental para que o processamento aconteça corretamente .
+
+
+As tres definições devem ter coerencia entre si para que o programa funcione corretamente e para que seu trabalho como desenvolvedor seja mais facil. 
+Esta clara a correlação entre Nome,Tipo e Conteudo  ao definirmos as variaveis de um algoritimo ?vamos adiante 
+
+Para finalizae este capitulo,cabe lembrar que as etapas de Estruturação do Algoritimo e de Teste de Mesa existem para que ajustes de definição de variaveis(nome e tipo ),de processamento e de encadeamento lógicos possam ser realizados. 
+O planejamento de uma solução computadorizada eo teste em situação real são fundamentais para que o algoritimo funcione como um verdeiro projeto do programa.
+Tais etapas servem para apurar o processo,sendo fundamentais para que a codificação de programas aconteça sem perda de tempo ou retrabalhos.
