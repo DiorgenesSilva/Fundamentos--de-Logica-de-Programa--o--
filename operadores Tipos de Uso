@@ -1,0 +1,38 @@
+OPERADORES TIPO DE USO  
+Com tudo oque vimos té aqui,podemos afirmar que programar computadores é lidar com informações e instruções para manipular dados e chegar a resultados.  
+Nesse sentido,os programas podem realizar calculos simples e complexos,camparar dados inseridos pelos usuários e dar diferentes encaminhamentos a esses dasos,dependendo do processamento .
+O que o computador fara depende do uso dos chamados Operadores.E o que são operadores?
+OPERADORES:> Sao elementos que atuam sobre os operandos(Variaveis ou Constantes),ou seja,são simbolos ou palavras reservadas ( true/false ) por meio das quais é possivel fazer calculos,comprarar resultados e atribuir valores a variáveis.
+Com isso,os operadores são a chave para que possamos aumentar,decrementar,comparar e avaliar dados dentro do computador.  
+
+Existem tres tipos diferentes de opradores:Aritimeiticos,Relaconais e Lógicoa.
+
+OPERADORES ARITIMETICOS 
+Possibilitam realizar calculos em expressões matemáticas.Suas palavras e simbolos reservados são:
+SOMA = ( + )
+SUBTRAÇÃO = ( - ) 
+MULTIPLICAÇÃO = ( * )
+DIVISÃO = ( / )
+EXPONENCIAÇÃO ( ** ou ^ )
+
+OPERADORES RELACIONAIS 
+MAIOR QUE = ( > ) 
+MENOR QUE = ( < )
+MAIOR OU IGUAL A = (  >= )
+MENOR OU IGUAL A = ( <= )
+IGUAL A = ( = )
+DIFERENTE DE = ( <>,ou # ou,!= )
+
+OPERADORES LOGICOS OU BOOLEANOS 
+CONJUNÇÃO = ( E )
+DISJUNÇÃO ( nao exclusiva ) = ( OU )
+NEGAÇÃO = ( NÃO )
+DISJUNÇÃO EXCLUSIVA = ( XOU ( le-se "excluisivo") ) 
+
+Saiba Mais!
+os operadores lógicos o booleanos também são muito utilizados nas codificações de \Programação.Quando utilizamos operadores logicos,obrigatoriamente,estamos nos colocando e uma situação de decisão consicional SE,isto é,um questionamento para resultar em uma situação verdadeira ou falsa.Por exemplo 
+
+SE curso == " sistemas " E periodo == " matutino  " entao faça...SENAO faça ...
+Observe que,nessa decisão condicional SE,alem de ser utilizado o operador logico E,tambem foi empregado o perador relacional/comparação de igualdade ==,Assim sera na codificação!
+Os operadores lógicos são utilizados na programação,conforme a linguagem.Para codificar E,voce encontrará os simbolos &&.Para codificar OU,voce encontrata os simbolos != !!.Para codificar NAO, voce encontrara o simbolo !!=.
+XOU nao é tao empregado,mas voce aprendera com detalhes qdo for estudar as linguagens de programação.
