@@ -1,0 +1,28 @@
+TIPOS DE DADOS 
+Programar computadores requer definição e uso de espaços em memória para receber informações inseridas pelos usuários.Os espaços em memória recebem informações que podem variar no decorrer de um processamento.Por isso,é muito importante aprender a criar e definir o tipo,bem como manipular variáveis e constantes.
+
+VARIAVEIS:>Em linhas gerais, Variáveis são  espaços em memória que servem para guardar um tipo de dado ou informação .Espaços  em memoéria devem receber nome específicos e unicos,para que possam ser refenciados exclusivamente e usados sempre que necessario.
+
+Achar um espaço em memória,com  conteúdo variável ou constante,precisamos definir e resgistrar o tipo de dado que será inserido e manipulado. A seguir ira conhecer os tres tipos de Dados.
+
+LITERAIS:> Dados literais _ ou caracteres_são sequencias contendo letras,numeros e outros simbolos especiais. Uma sequencia de caracteres deve ser indicada entre aspas("").
+Esse tipo de dado também é conhecido com Alfanumérico,String,Literal ou Cadeia.
+Como exemplo temos "Curso de Fundamentamentos de Lógica","Estude Muito","2020","1.345.34","Janeiro 1984 ?",entre outros.
+
+ 
+NUMÉRICOS REAIS:> Os dados numericos reais são numeros positivos,negativos e fracionários.
+Como exemplo,temos:563.23,-3,-34.54,7,12.
+Lembrando que,na informação universal,a parte fracionaria é separada por ponto "." e nao por virgula ",".Como fazemos na formação brasileira. 
+
+ 
+NUMÉRICOS INTEIROS 
+Os dados numéricos inteiros sao definidos como tipos inteiros. Podem ser dados numéricos positivos ou negativos. 
+Nesse tipo,não se encaixam numeros fracionários.
+Como exemplo,temos:10,-10,5,85,33,88,-67,entre outros
+
+LÓGICOS:> Os dados lógicos são apenas dois valores utilizados por elementos condicionais para tomada de decisão.Algumas bibliografias escrevem os valores lógicos entre pontos,para dar mais enfase e diferencia-los de  outros conceitos ou definições(como variáveis ou valores literais).Por exemplo: V ou F.
+> Esses dois valores podem ser. Verdadeiro ou Falso,ou ,V ou F .
+> Sim ou nao 
+> 0 ou 1
+Também são conhecidos como dados booleanos,por referencia a George Boole,matemático que deu nome a algebra booleana,expressão que trata desses tipos de dados.
+
