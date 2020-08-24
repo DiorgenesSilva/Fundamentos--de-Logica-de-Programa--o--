@@ -1,0 +1,64 @@
+USO E FUNÇÕES DE CONSTANTES  E VARIAVEIS  
+Já mencionamos algumas vezes as palavras "Constante" e "Variável".Voce deve estar curioso para saber oque elas significam?
+Agora vamos definir cada uma delas e dar exemplos de suas funções.
+
+CONSTANTE:>Chamamos de constante todo valor fixo que não sera alterado durante a execução de um programa.
+
+Elas são NUMERICAS,LITERAIS  e LOGICAS. 
+
+Exemplo:
+IMC = peso / altura ao(quadrado) 
+Observe que na formula para calcular o IMC(indice de Massa Corporal),o numero (ao quadrado)  é um valor constante,pois não muda.Desse modo, o numero dois(ao quadrado) é diferente dos demais elementos(IMC,peso e altura),que vão variar em cada caso.Em relação ao tipo do dado,o numero dois deve ser classificado  como uma constante numerica interira.
+
+Agora vamos entender melhor VARIAVEIS
+Uma variável representa um endereço da memoria RAM que armazena,temporariamente,valores e informações.Esses endereços recebem o nome e de conteúdo.Cada vez que mencionamos o nome e da variável,seu conteudo é manipulado.
+
+Vamos retormar o exemplo da formula para calcular IMC(Massa Corporal) 
+
+                     peso  = VARIAVEL  
+       VARIAVEL=IMC ______
+                    altura = VARIAVEL
+
+E importante sabermos que as Variéveis podem armazenr todos os tipos de dados.Além disso,para criar variáveis constantes,precisamos definir um nome simbólico,uma identificação a partir da qual elas serão chamadas,o tipo de dados que elas  receberão e um valor inicial.
+
+A criação de variáveis ocorre no momento de codificação do programa.Desse modo,precisamos atribuir um nome simbólico a determinado endereço na memória RAM.
+No decorrer do programa,esse nome vai ser utilizado para manipular a informação contida no endereço da memoria relacionada á variavável.
+Exemplo:
+NumCta 
+NumCta = 
+NumCta = 2345 
+
+Para nomear uma variável,precisamos seguir algumas regras.Voce sabe quais são essas regras? 
+
+OS NOMES DAS VARIAVEIS:
+> Devem sempre começar por uma letra  
+> Não devem ter espaços em branco
+> Nao devem ter caracteres especiais = no máximo,o simbolo sublinhado.
+Exemplo:
+         Nome_Cliente
+         Num_funcionario
+         Datanascimento
+Além disso,precisamos saber que as variáveis devem ser declaradas sempre no  inicio dos algoritimos e dos programas.Veremos um exemplo mais adiante.
+
+Voce sabe ate quando os valores permanecem aramazenados na variaves?
+Os valores armazenados nas variaveis permanecem:
+> Até que o computador seja desligado ppelo usuario ou por falta de energia,ja que armazenados na memoria RAM.
+> Por termino do programa ou da rotina onde foram criados.
+> Ate que seja atribuido um novo valor para a mesma  variavel.
+Exemplo: 
+Se escrevermos A = 5,o valor cinco será conteudo da variavel A.
+Se mais adiante,escrevermos A = 20,o valor vinte passará a ser o novo conteudo da variavel A.
+Nesse caso,o valor anterior 5 (cinco)será eliminado(substituido).
+
+Como ja observamos,a sequencia lógica para sacar dinheiro em um caixa eletronico fo ajustado para que o memso problema fosse resolvido de tres formas diferentes : Descrição NARRATIVA,FLUXOGRAMA e  PSEUDOCÓDIGO.
+Essas tres formas de algoritimos são diferentes e como os processos podem ser mais ou menos detalhados,a depender da tecnica utilizada.A partir dessa experiencia,podemos chegar a algumas conclusões.Concorda? veja abaixo.
+
+DESCRIÇÃO NARRATIVA:> E a forma mas proxima da linguagem comum.
+DIAGRAMA DE BLOCOS:> Ou fluxograma é um tecnica intermediaria que usa formas geometricas e frases curtas para descrever um processamento.
+PORTUGUES ESTRUTURADO OU PSEUDOCÓDIGO:>E a forma mais detalhada e mais proxima dos codigos de programação.
+
+As tres tecnicas sã outeis e impotante. Dessa Forma,caberá a voce quallé a mais apropriada,tendo em vista o contexto em que estiver planejando um programa.
+
+
+Saiba Mais!
+De acordo com Oliveira(2004),"há diversas formas de representação de algoritimos que diferem entre si pela quantidade de detalhes de implementação que fornecem ou,inversamente,pelo grau de abstração que possibilitam com relaçao a implementação do algoritimo em termos de uma linguagem de programação especifica.
