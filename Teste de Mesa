@@ -1,0 +1,59 @@
+TESTE DE MESA
+Uma vez escolhemos uma forma de representar o algoritimo e concluimos sua estrutura,como saber se o encadeamento lógico esta correto?
+Ao desenvolver um algoritimo,devemos submeter a rotina elaborada a um processo de verificação.
+O objetivo da verificação é simular o funcionamento e a eficiencia do codigo ao resolver o problema proposto.
+Em ouras palavras,a ideia é testar a sequencia logica para ver se o encadeamento das  instruções e dos processamentos esta correto para ver se há necessidade de ajustes. 
+No jargão da infomática esse tipo de teste é chamado de TESTE DE MESA.
+Na prática,esse termo significa seguir as instruções do algoritimos,de maneira precisa,para verificar se os procedimento utilizado esta correto ou não. 
+Para aplicar a ténica denominada teste de mesa,precisaremos de papel,com caneta e paciencia,para ler e realizar cada insrução encadeada como se fossemos um computador.
+Podemos aplicar o teste de mesa a qualquer tipo de algoritimo,seja uma descrição narrativa,um fluxograma ou pseudocódigo. 
+Vamos descobrir como aplicar esse teste na pratica? 
+
+Para demonstrar o teste de mesa,partiremos do algoritimo Quatro_Operações_Basicas,representado no pseudocódigo a seguir.Esse algoritmo fi construido com o objetivo de solicitra ao usuario a inserção de dois numeros quaisquer para a realiação das quatro operações matematicas basicas.
+
+TESTE  NUMA  NUMB  SOMA  SUBTRAÇÃO  MULTIPLICAÇÃO  DIVISÃO 
+ 1      30    60    90     -30         1.800        0.5
+ 2      20   -40    20     -60         -800         0.5
+ 3      20   -40   -20      60         -800         0.5
+ LembrE-se de que a proposta do reste de mesa é simular a realização da rotina do algoritimo por meio de preenchimento da tabela. 
+
+ TESTE1 = Considere os valores 30 e 60 como os dois numeros(NUM_A e NUM_B RESPECTIVAMENTE )solicitados pelo algoritimo.A partir desses dois valores,siga o encadeamento.
+ Quando o algoritimo solicittar a ação ESCREVA,preencha o campo correspondente na tabela de Caneta Azul.Para marcar as ações LEIA,coloque o valor liuido entre parenteses de Caneta Vermelha.Essas regras simples são  importantes para registrar a verificação de todas aplicações prevista do algoritimo.
+
+ TESTE2 = Repita o precedimento realizado no primeiro teste,considerando os valores -20 e 40 como NUMA e NUMB.
+  
+ TESTE3 = Repita o procedimento considerando,agora os valores 20 e -40.
+
+pseudocódigo
+
+Algoritimo Quatro_operações_basicas 
+// rotina recebe dois numeros e que apresentara o resultado das quatro operações
+   valor
+   NUM_A = 0
+   NUM_B = 0
+   SOMA = 0 
+   SUBTRAÇÃO = 0 
+   MULTIPLICAÇÃO = 0
+   DIVISÃOO = 0
+
+inicio
+
+   Escreva "Programa que executa as quatro operações básicas"
+   Escreva "Informe o primeiro numero:"   
+   Leia NUM_A
+   Escreva "Informe o segundo numero"
+   leia NUM_B
+   SOMA = NUM_A + NUM_B
+   SUBTRAÇÃO = NUM_A - NUM_B
+   MULTIPLICAÇÃO = NUM_A * NUM_B
+   DIVISÃO = NUM_A / NUM_B
+   Escreva " A soma dos dois numeros é"
+   Escreva SOMA 
+   Escreva "A subtração dos dois numeros é"
+   Escreva SUBTRAÇÃO
+   Escreva " multiplicação de dois numeros é "
+   Escreva  MULTIPLICAÇÃO 
+   Escreva "Escreva a divisõ entre dois numeros é"
+   Escreva DIVISÃO
+   
+Fim   
