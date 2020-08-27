@@ -1,0 +1,7 @@
+As estruturas de seleção multiplas são utilizadas em situações mais complexas,vamos conhece-las.
+Quando precisamos fazer varios testes em uma  mesma variável,temos de usar estrutura de seleção multipla.Também usamos essa estrutura para testar o valor de uma variavel que depende do teste do valor de outra variável.
+A etsrutura deseleção multipla pode ser contuida de duas maneiras diferentes:
+>Estruturas de seleção compostas encadeadas(aninhadas,agrupadas),ou seja,utilização de estruturas SE "Uma dentro da outra"
+>ESTRUTURA FAÇA CASO 
+
+ 
