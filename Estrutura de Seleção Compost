@@ -11,3 +11,39 @@ SE estiver chovendo
 ENTÃO verei televisão em casa
 SENÃO irei passear no parque 
 
+Agora vamos conhecer as palavras-chave (marcadores) de uma estrutura de seleção composta.
+
+SE < CONDIÇÃO > ENTÃO = Comandos a serem executados somente se a condiçao for verdadeira  
+SENÃO 
+Comandosa serem executados somente se a condição for falsa
+FIM SE 
+
+Vejamos um exemplo para entender como fica a utilização pratica da estruturade seleção composta.
+Em nosso exemplo,vamos desenvolver um algoritimo em pseudocódigopara ler o nome de um aluno,a nota de  duas avaliações a calcular a média final.Ao final do processamento,a rotina deveerá mostrar o nome do aluno,as duas notas das avaliaçõeseamedia calculada .
+Se a media calculada do aluo for menor que seis(media <6),o algoritimo deverá exibir a mensagem"Aluno(a) reprovado(a).Caso contrario (media >=6.0) ,o sistema deverá exibir a mensagem"Aluno 9a) Aprovado(a)".
+
+ALGORITIMO SituaçãoAluno 
+    VAE 
+    N1,N2,Media:real 
+    Nome:literal 
+       N1 - 0
+       N2 = 0 
+       Media = 0 
+iNICIO 
+    Escreva " Informe a Primeira nota : "
+    leia N1
+    Escreva " Informe a segunda nota : "       
+    Leia N2 
+    Escreva " Informe o nome do(a) Aluno(a) : " 
+    leia Nome
+    Media = (n1 + n2 ) /2
+    Escreva Nome,N1,N2,Media
+    SE Media <6 ENTÃO 
+    Escreva " Aluno(a) reprovado(a) "
+    SENAO
+    Escreva " Aluno(a) Aprovado(a) " 
+    FIM SE 
+
+>Estruura Seleção Composta 
+>Ação executar caso a condição for verdadeira 
+>Ação executar caso condição for falsa     
