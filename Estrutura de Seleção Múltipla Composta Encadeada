@@ -1,0 +1,20 @@
+ESTRUTUURA DE SELEÇÃO MULTIPLA COMPOSTA ECADEADA  
+Vamos começar com as estruturas de seleção múltipla compostas encadeadas. Se utilizarmos essas estruturas, temos três casos de encadeamento diferentes todos representados nos infográficos a seguir.  Abaixo  verá  osexemplos:
+
+SE <CONDIÇÃO> ENTÃO =    Comandos a serem executados somente se a primeira condição for verdadeira    
+SENÃO    
+SE <CONDIÇÃO> ENTÃO    Comandos a serem executados somente se a segunda condição for verdadeira  
+SENÃO    Comandos a serem executados somente se a segunda condição for falsa    FIM SE  
+
+SE <CONDIÇÃO> ENTÃO  
+   Comandos a serem executados somente se a primeira condição for verdadeira    SENÃO   
+   SE <CONDIÇÃO> ENTÃO  =  Comandos a serem executados somente se a segunda condição for verdadeira 
+   SENÃO    
+   Comandos a serem executados somente se a segunda condição for falsa  
+  FIM SE  
+
+SE <CONDIÇÃO> ENTÃO   
+  Comandos a serem executados somente se a primeira condição for verdadeira   SENÃO   
+  SE <CONDIÇÃO> ENTÃO   Comandos a serem executados somente se a segunda condição for verdadeira 
+  SENÃO   Comandos a serem executados somente se a segunda condição for falsa    
+FIM SE  
