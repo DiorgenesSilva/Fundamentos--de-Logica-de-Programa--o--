@@ -1,0 +1,22 @@
+ESTRUTURA DE SELEÇÃO  
+As estruturas de seleção são usadas para que sejam esbabelecidos caminhos diferentes de instruções,a seren percorridos a partir de tomadas de decisão,justamente por isso,esses recursos podem ser chamados de estrutura de seleção ou estrutura de decisão   .
+Como programador,você deverá utilizar os recursos de estrutura de seleção sempre que tiver de estruturar sequencias e ações  que poderão ser executadas ou não,a depender de um resultado frente a uma ou maiis condições .
+Existem tres tipos de estruturas de seleção,cuja aplicação irá depender do contexto de utilização .
+Sao SIMPLES,COMPOSTA e MULTIPLA.
+
+SIMPLES:
+>Marcadores:SE,ENTÃO e FIM,SE.
+USO: Recurso a ser empregado em situações em que se faz necessário testar uma unica condição/variavel que,se verdadeira,ira desencadear a realização dee um ou mais comandos. Temos então ,um teste e um grupo de ações que só acontecerão se a resposta for verdadeira .
+
+COMPOSTA:
+>Marcadores:SE,ENTAO,SENAO e FIM SE 
+>USO: Recurso a ser empregado em situações em que se faz necessario testar uma nica condição/variavel que,se verdadeira,irá desencadear a realização de um ou mais comandos e que,se for falsa,ira desencadear outro grupo de ações.Temos então um teste e dois grupos de ações possiveis,um que acontecerá se a condição for verdadeira,e outro se a condição for falsa.
+If-else(decisão composta) 
+
+MULTIPLA
+ em situações em que se faz necessario testar varias vezes a condição/variavel.O resultado de cada teste ira desencadear um determinado grupo de ações.
+ >Utilizando o ecurso "Se" de forma encadeada (um dentro do outro) 
+ >Marcadores:SE,ENTAO,SENÃO e FIM SE
+ : Utilizando recurso"faça Caso"
+ >Marcadores:FAÇA CASO,CASO,OUTRO CASO,FIM CASO. ]
+ 
