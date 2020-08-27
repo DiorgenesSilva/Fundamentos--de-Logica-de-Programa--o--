@@ -1,0 +1,6 @@
+ESTRUTURA DE SELEÇÃO SIMPLES 
+Estrutura de seleção somples faz uso d instrução (IF).Ela é utilizada quando queremos testar uma condição antes de executarmos uma ou mais instruções. 
+Nessa estrutura,somente teremos uma ação SE o resultado da condição for Verdadeiro. Desse modo,não há ação a ser executada caso o resultado seja falso. 
+ SE CONDIÇÃO - VERDADEIRO ==> AÇÃO 
+ SE CONDIÇÃO - FALSO ===> NÃO HÁAÇÃO A SER EXECUTADA 
+  
