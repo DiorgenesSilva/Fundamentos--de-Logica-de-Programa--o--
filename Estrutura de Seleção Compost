@@ -1,0 +1,13 @@
+ESTRUTURA DE SELEÇÃO COMPOSTA 
+Na estrutura de seleção composta Existe dois Caminhos Diferentes preterminados.
+Dessa maneira,haverá a execução de um comando ou grupo de comandos caso o resultado da condição seja Verdadeiro.Ou a execução de outro comando ou grupo de comandos diferente caso o resultado da condição seja Falso.
+
+SE CONDIÇÃO = VERDADEIRO ===> AÇÃO1
+SE CONDIÇÃO = FALSO ====> AÇÃO2
+
+Exemplo:
+condição~
+SE estiver chovendo 
+ENTÃO verei televisão em casa
+SENÃO irei passear no parque 
+
