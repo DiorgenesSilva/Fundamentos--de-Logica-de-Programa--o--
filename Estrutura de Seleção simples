@@ -3,4 +3,39 @@ Estrutura de seleção somples faz uso d instrução (IF).Ela é utilizada quand
 Nessa estrutura,somente teremos uma ação SE o resultado da condição for Verdadeiro. Desse modo,não há ação a ser executada caso o resultado seja falso. 
  SE CONDIÇÃO - VERDADEIRO ==> AÇÃO 
  SE CONDIÇÃO - FALSO ===> NÃO HÁAÇÃO A SER EXECUTADA 
-  
+
+ Essas palavras-chave(marcadores)de uma estrutura de seleção simples são:
+
+ SE < CONDIÇÃO > ENTÃO = Comandos a serem executados apenas se a condição for verdadeira .
+ FIM SE 
+
+ Veja um exemplo para entender como funciona melhor a seleção simples,.
+ Em nosso exemplo,vamos desenvolver um algoritimo em pseudocódigo para ler nome de um alun,a nota de duas avali~ções e calcular a media gfinal dele.  
+ Ao final desse processamento, a rotina deverá mostrar o nome do aluno,as duas notas das avaliações ea média final calculada.Se a média calculada do luno for menor que seis (media <6.0),o algoritimo devera exibir a mensagem "Aluno(a) reprovado(a).
+
+ Exemplo abaixo : 
+
+ALGORITIMO SituaçãoAluno 
+     VAR 
+     N1,N2,Media:real 
+     Nome: Literal 
+         N1 = 0
+         N2 = 0 
+         Media = 0 
+    INICIO 
+        Escreva " Informe a primerira nota "
+        Leia N1 
+        Escreva " Informe a segunda nota "
+        Leia N2
+        Escreva " Escreva o nome do(a) Aluno(a) "
+        Leia Nome 
+        Media (N1 + N2 ) /2
+        Escreva Nome,N!,N2,Media 
+        SE Media <6 ENTAO 
+        Escreva " Aluno(a) repovado(a) "
+        FIM SE     
+        >Acima exemplo de estrutura de seleção simples 
+        >Ação executar caso a condição for verdadeira 
+        
+
+
