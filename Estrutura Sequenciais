@@ -1,4 +1,4 @@
 ESTRUTURA SEQUENCIAIS 
 A estrutura sequencial pe uma sequencia de instruões que acontecem uma após a outra,sem desvioes ou interrupções.
 Esse tipo de estrutra écomposto somente de linhas de comando sucessivas ( que compõe um unico fluxo possivel de processamento ) e está sempre limitado pelos marcadores INICIO  e fim do algoritimo ou de uma ou outra estrutura .
-As estruturas sequenciais podem ser representadas por fluxogramas e pseudocodigos.  
+As estruturas sequenciais podem ser representadas por fluxogramas e pseudocodigos.    
