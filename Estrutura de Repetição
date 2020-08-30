@@ -24,3 +24,31 @@ Este exemplo simples permite perceber que a repetiçãoo é lgo que faz parte da
 Que tal pensarmos nos processos de reetição no contexto da informática?
 Com o advento do computador,passou a ser possivel automatizar a produção de artefatos que até então eram feitos mnualmente.Com os avanços tecnologicos do seculo XXI,isso tornou-se cada vez mais frequente.
 De modo geral,transformar algo em automatico é prever a repetição de eventos durante determinado numero de vezes,ate que uma condição seja alcançada ou ate que o usuario decida encerar o processo .Por isso ,a repetição é algo muito presente na programação de computadores.
+
+Como as repetições são programadas no computador ?
+Para resolver situações resolvendo repetição de forma lógica e inteligente,foram criadas as chamadas Estruturas de Repetição ou Lações de Rpetição .
+As estruturas de repetição permitem programar o loop(laço,ciclo)de blocos de instruções a partir dos parametros previamene estabelecidos em algoritimos ou codigos de programação .  loop (Conjunto de instruções que um programa de computador percorre e repete um significativo numeros de vezes,ate que sejam alcançadas condições desejadas) .
+
+Para uso correto de uma estrutura de repetição,um item fundamental que deve ser compreendido é o controle do número de vezes que a estrutura sera repetida . Desse modo,as repetiçoes podem ser controladas apartir de recursos.
+Abaixo conheça esses recursos .
+
+CONTADOR FIXO 
+Recurso que utiliza uma variavel "contador"para contar o numero de vezes que uma determinada sequencia sera repetida.Quando o valor do contador atingir o numero predeterminado ,a repetição sera encerrada. 
+Contador = Definição de uma variavel para controlar o numero de repetição de um loop (laço)
+Contador - Contador +1 
+Significa somar e acumular mais (1) ao valor que esta armazenado na variavel "contador" 
+
+FLAG DE RESPOSTA (SINALIZAÇÃO DO USUARIO )
+Recurso
+ que,ao final do processamento,pergunta ao usuário se ele deseja ou não executar a rotina de novo,amazenando o resultado da Resposta em um falg de resposta,isto é,uma variavel por exemplo "Resp"
+ Resp = Neste caso,a opção "s" ou "n" será armazenada  na variavl "Resp",que será condicionada ao controle de repetição,para continuar o processamento (Resp = s) ou nao (RESP = "n").
+ Ou seja, neste caso, o loop (ciclo ou laço) é interrompido pelo usuario 
+               Resp = "Deseja continuar <s/n> ?"
+
+FLAG PREDETERMINADO (SINALIZAÇÃO PREDETERMINADA) 
+Recurso que possibilita ao usuario encerrar o loop quando quiser,digitando uma paçavra predeterminada,ou quando se chegar a uma condição específica determinada pelo valor de um campo especifico.
+               "Digite o nome do aluno ou FIM para sair"
+Neste caso especifico de controle de loop (laço de repetiçao) sera nome.
+Se o usuário digitar um valor diferente de "FIM" não for digitado.
+Caso o cotrario preencha o campo "nome" com "FIM",O processamento do laçoo de repetição sera finalizado.
+              
