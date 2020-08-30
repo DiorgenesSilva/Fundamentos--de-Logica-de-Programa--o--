@@ -1,0 +1,22 @@
+ESTRUTURA DE SELEÇÃO MULTIPLA FAÇA CASO 
+Agora,vamos entender como funcionaria a estrutura de seleção multipla com FAÇA CASO.
+aS PALAVRAS-CHAVE (MARCADORES)DESSA ESTRUTURA SÃO:
+
+FAÇA CASO 
+     CASO < CONDIÇÃO >
+         Comandos a serem executados somente se a condição for  verdadeira   
+     CASO < CONDIÇÃO > 
+         Comandos a serem executados somente se a condiçãoo for verdadeira       
+    CASO < CONDIÇÃO >
+         Comandos a serem execuados somente se a condição for verdadeira 
+    OUTRO CASO :
+         Comandos a serem executados se todos os casos mapeados retornarem "falso"
+FIM 
+
+
+Exemplo :
+Neste exemplo,vamos usar uma solução com estrutura de Seleção Compsta Encadeada e outra com Estrutura FAÇA CASO .
+O Algoritimo que vamos desenvolver deve ler o estado civil (EC) de uma pessoa como valor numerico.Os parametros sao:
+
+"1" corresponde a solteiro
+"2" corresponde a ca
