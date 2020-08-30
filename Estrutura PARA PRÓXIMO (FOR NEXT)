@@ -1,0 +1,25 @@
+ESTRUTURA PARA PRÓXIMO ( FOR NEXT ) 
+A estrutura PARA PROXIMO  tem uma estrutura particular.Vamos conhe-la? Clique nas setas azuis para acompanhar o esquema.
+ PARA<VAR = vi> ATE <vf> [passo <N>]
+    Comandos a serem repetidos
+PROXIMO 
+
+exemplo   PARA A = 2 ATE 10 PASSO 2 
+                Escrever A 
+          PROXIMO 
+
+RESULTADO 
+    2
+    4
+    6
+    8
+    10                 
+
+Legenda:
+vi = valor inicial 
+vf = valor final 
+(nesse exemplo vi e vf minusculas não são variaveis,são apenas valores).
+Para a variavel A,note que foram atribuidos os valores vi = (A = 2 );vf = 10 (Ate 10)    
+Nesse tipo de construção a rotina sempre entra na estrutura n aprimeira vez.Como temos atribuição VAR = vi(valor inicial)no inicio da estrutura,tudo que estiver dentro dela se repete ate encontrar a palavra PROXIMO .
+Quando encontra a palavra PROXIMO,a rotina soma o valor do passo (somar 2 )á variavel de controle (A) e realiza um teste com valor final(vf).Enquanto o valor da variavel de controle nao atender a condição determinada para o valor final (vf).a rotina continuara se repetindo. 
+
