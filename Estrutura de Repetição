@@ -51,4 +51,10 @@ Recurso que possibilita ao usuario encerrar o loop quando quiser,digitando uma p
 Neste caso especifico de controle de loop (laço de repetiçao) sera nome.
 Se o usuário digitar um valor diferente de "FIM" não for digitado.
 Caso o cotrario preencha o campo "nome" com "FIM",O processamento do laçoo de repetição sera finalizado.
-              
+Para construir estruturas de repetição,podemos usar dois tipos de recursos diferentes .
+
+ENQUANTO ... FAÇA (WHILE) 
+Serve tanto para repetições com contador fixo quanto que para repetiçoes por sinalizações(flag) 
+
+PARA PROXIMO ( FOR NEXT )
+Serve apenas para repetições por contador fixo.
