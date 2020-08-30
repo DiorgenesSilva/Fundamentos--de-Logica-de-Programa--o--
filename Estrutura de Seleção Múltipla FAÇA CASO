@@ -16,7 +16,54 @@ FIM
 
 Exemplo :
 Neste exemplo,vamos usar uma solução com estrutura de Seleção Compsta Encadeada e outra com Estrutura FAÇA CASO .
-O Algoritimo que vamos desenvolver deve ler o estado civil (EC) de uma pessoa como valor numerico.Os parametros sao:
+O Algoritimo que vamos desenvolver deve ler o estado civil (EC) de uma pessoa como valor numerico. Os parametros sao:
 
 "1" corresponde a solteiro
-"2" corresponde a ca
+"2" corresponde a casado
+"3" corresponde a Outros 
+
+ESTRUTURA DE SELEÇAO COMPOSTA ENCADEADA 
+ALGORITIMO EstadoCivil
+    VAR 
+    EC : inteiro 
+    EC : 0 
+    INICIO 
+    Escreva "Digite estado Civil "
+    Leia EC 
+    SE EC = 1 ENTAO 
+    Escreva "Solteiro" 
+    SENAO 
+       SE EC = 2 ENTAO 
+       Escreva " Casado "
+       SENAO 
+        SE EC = 3 ENTAO 
+        Escreva " Outros" 
+        SENAO 
+          Escreva " valor Invalido " 
+          FIM SE 
+     FIM SE 
+
+
+ESTRUTURA FAÇA CASO 
+ALGORITIMO EstadoCivil  
+    VAR 
+    EC: inteiro 
+    EC = 0 
+    INICIO 
+      Escreva "Digite estado civil ( 1 - solteiro, 2- casado , 3 - outros )"
+      Leia EC 
+           FAÇA CASO 
+           CASO EC = 1 :
+           Escreva " Solteiro " 
+           CASO EC = 2 :
+           Escreva " Casado "
+           CASO EC - 3 :
+           Escreva " outros "
+           OUTRO CASO :
+           Escreva "Valor invalido "
+       FIM CASO 
+FIM CASO 
+
+
+
+
