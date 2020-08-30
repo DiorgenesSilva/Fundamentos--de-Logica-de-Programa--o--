@@ -1,0 +1,60 @@
+ESTRUTURA ENQUANTO...FAÇA ( WHILE )  
+Ainstrução ENQUANTO...FAÇA ( WHILE ) o indica o inicio de um loop e recebe uma codição como parÂmetro. Tal condição é chamada de condição ´´arada,ja que o loop é encerrado quando a condição retornar um valor lógico ou falso o loop nem é iniciado se a verificaçãpp cpndicional resultar em um valor lógico falso assim que a estrutura de repetição for iniciada.
+veja,a seguir,em ENQUANTO...FAÇA e FIM ENQUANTO para entender como é representada essa estrutura.  
+                     
+                        ENQUANTO < CONDIÇÃO > FAÇA 
+                           Comandos a serem repetidos 
+                         FIM ENQUANTO 
+ " o programa executa tudo que estiver contido entre os marcadores ENQUANTO...FAÇA e FIM ENQUANTO.
+
+ Nessa estrutura,a rotina de repetição so é executada  caso a condição seja verdadeira .Se a condição for falsa,a estrutura é ignorada e finalizada. 
+
+ Veja alguns exemplos de ENQUANTO...FAÇA.
+
+Acompanhe tres condições diferentes em que a instrução ENQUANTO...FAÇA stá representada.Navegue pelas setas para conhece-las
+
+1:> Se a condição da estrutura for falsa,temos o seguinte:
+                      Condição 
+            NUM_A = 40 
+            ENQUANTO NUM_A <=30 FAÇA 
+            Comandos a serem repetidos.
+            FIM ENQUANTO
+Neste exemplo,a rotina de repetição nao será executada,pois a condição inicial é falsa.
+                      NUMA_A inicia com 40 
+                      NUM_A = 40 
+O loop esta limitado aos valores menores ou iguais a 30 NUM_A <=30 
+
+
+2:> Se a variável não mudar o valor,temos o seguinte:
+
+             Condição 
+      NUM_A = 20 
+      ENQUANTO NUM_A <= 30 FAÇA 
+                     Escreva A   
+      FIM ENQUANTO 
+Neste exemplo,a rotina de repetição ficará em loop inifinito,pois a variavel NUM_A nao muda de valor  é verdadeira para a condição determnada NUM_A <=30 
+    NUM_A  inicia com 20
+    NUM_A = 20   
+O loop(ciclo,laço) esta limitado aos valores menores ou iguais a 30;NUM_A <=30 
+Não há atualizaçao do valor para NUM_A
+     ( inicia e termina com 20 )
+
+
+3:> Se icrementarmos o valor de A,temos o seguinte :
+
+             Condição 
+     NUM_A = 4
+     ENQUANTO NUM_A <=30 FAÇA
+            Escreva NUM_A
+            NUM_A = NUM_A + 4
+    FIM ENQUANTO                  
+
+    RESULTADO 
+    NUM_A = 4 
+    8 ( 4 + 4 )
+    12 ( 8 9 4 )
+    16 ( 12 + 4 )
+    20 ( 16 + 4 )
+    24 ( 20 + 4 )
+    28 ( 24 + 4 )
+    
