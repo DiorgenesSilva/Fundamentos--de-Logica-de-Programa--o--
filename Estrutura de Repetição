@@ -1,0 +1,26 @@
+ESTRUTURA DE REPETIÇÃO 
+As estruturs de repetiçaõ são necessárias,úteis e importantes no desenvolvimento  de rotinas de programação. Neste tópico,vamos apresentar as consdições que permitem a realização de rotinas repetitivas e fornecem mais sofisticação e inteligencia ao seu código.
+
+Centeúdos :
+* Estruturaa de Repetição 
+* Flog de Resposta (sinalização do usuario )
+* Flag pretederminado ( sinalização determinada )
+
+Ao finalizar este tópico,voce será capaz de :
+* Otimizar códigos usando estruturas de repetição 
+* Criar blocos de codigos usando a estrutura WHILE (FAÇA ENQUANTO ) 
+* Usar a estrutura FOR NEXT ( PARA PEOXIMO) para realizar tarefas repetitivas.
+
+Em cero smomentos,surgem  circunstancias especificas em programação que exigem que uma ação ou um grupo de ações seja relizado várias vezes.
+Para resolver esses casos de forma lógica foram criadas as chamadas "Estruturas de Repetição ",que permitem criar blocos de repetição até que determinada condição se torne verdadeira ou por um numero predeterminado de vezes,vamos pensar um exemplo? 
+
+ALUNO ==> ESTUDAR BASTANTE ==> PRESTAR VESTIBULAR ==> CONQUISTAR UMA VAGA => SIM
+              ^                                          I
+              !==========================================I 
+
+Quem esta preparado para entrar na universidade deve estudar ate passar no vestibular,não é mesmo? Com isso,podemos dizer que os estudantes repetem ações (estudar bastante , prestar o vestibular )até que uma condição (cinquistou uma vaga ?)seja conquistada.
+Note queo fluxograma,o bloco de ações "Estudar bastante " e "Prestar vestibulares "deve repetir-se por tempo indeterminado ate que a condição "Conquistar uma vaga " se torne verdadeira.
+Este exemplo simples permite perceber que a repetiçãoo é lgo que faz parte da avida cotidiana.Tanto é assim que ela é parte crucial em praticamente todos os processos produtivos.
+Que tal pensarmos nos processos de reetição no contexto da informática?
+Com o advento do computador,passou a ser possivel automatizar a produção de artefatos que até então eram feitos mnualmente.Com os avanços tecnologicos do seculo XXI,isso tornou-se cada vez mais frequente.
+De modo geral,transformar algo em automatico é prever a repetição de eventos durante determinado numero de vezes,ate que uma condição seja alcançada ou ate que o usuario decida encerar o processo .Por isso ,a repetição é algo muito presente na programação de computadores.
