@@ -1,0 +1,115 @@
+ESTRUTURAS DE REPETIÇÃO EM ALGORITIMOS 
+Para enterdermos melhor o uso das estruturas de repetição,vamos acompanhar tres exemplos em que desenvolvemos um algoritimo para cada uma das estruturas que acabamos de estudar.
+
+Exempo 1 - Contador Fixo 
+Vamos construir um algoritimo em pseudocódigo para ler o nome de duas notas de cada aluno de uma turmaa de 15 alunos.Alem disso,precisaremos calcular a media,bem como mostrar o valor das duas notas ea média de cada aluno.
+
+ESRUTURA ENQUANTO FAÇA
+    Algoritimo Caculamedia 
+       VAR 
+       Nome : Literal 
+       N1,N2,Media,Aluno : inteiro 
+       N1 = 0 
+       N2 = 0 
+       Media = 0 
+       Aluno = 0 
+INICIO 
+        ENQUANTO Aluno < = 15 FAÇA
+        Escreva "Digite o nome N1,N2"
+               Leia Nome 
+               Leia N1 
+               Leia N2 
+                   Media + (N1 + N2 ) /2
+                   Escreva Nome, media 
+        Aluno = Aluno + 1 
+        FIM ENQUANTO
+FIM SE 
+
+ENQUANTO Aluno <=  15 FAÇA :> iNICIO DA ESTRUTURA DE REPETIÇÃO .nESTE EXEMPLO,O NUMERO DE REPETIÇÕES FOI PREDETERMINADO (15)
+aLUNO - aLUNO + 1 = :> Instrução que icrementa o numero (1) á variavel Aluno,para controlar a quantidade de vezes que o bloco sera repetido .
+
+
+Estrutura PARA PROXIMO 
+      Algoritimo CalculaMedia 
+      VAR 
+         Nome : Literal 
+         N1,N2,Media, Aluno: Inteiro 
+         N1 = 0 
+         N2 = 0 
+         Media = 0 
+         Aluno - 0 
+             PARA Aluno - 1 ATE 15 PASSO 1 
+                Escreva "Digite nome N1,N2"
+                Leia  Nome 
+                Leia N1 
+                Leia N2 
+                Mdia = (N1 + N2 ) /2
+                Escreva Nome, N1 , N2 ,Media 
+         PROXIMO 
+FIM 
+
+PARA Aluno = 1 ATE 15 PASSO 1 :> Definr a instrução como PASSO 1 significa que o valor 'um" deve ser adicionado  a variavel Aluno,que,neste exemplo,é a variavel que controla o numero de repetiçoes.
+LEIA Nome , Leia N1 , Leia N2 , Media ,Escreva Nome :> Bloco de instruções que sera repetido do valor inicial (vi) ate o valor final (vf). Nesse exemplo,o bloco sera repetido 15 vezes  .
+
+
+
+FLAG DE RESPOSTA 
+vamos construir  um algoritimo em pseudocódigo para ler o nome de duas notas de diversos alunos.Além disso ,é preciso calcular a média, bem como mostrar o nome,as duas notas ea media de cada aluno.Após processar cada aluno,deve-se perguntar se o usuario deseja continuar.
+Quando o usuario responder "sim" (S),o programa continuara.Quando a resposta for "nao"(N),o programa terminara.
+Algoritimo CalcularMedia 
+  VAR 
+      Nome, CapturaFlag: Literal
+      N1, N2, Media : Inteiro 
+      N1 = 0 
+      N2 = 0 
+      Media = 0 
+      CpturaFlag - "S" 
+INICIO 
+       Enquanto CapturaFlag = "S" FAÇA   
+             Escreva  " Digite o Nome,N1,N2  "
+             Leia Nome 
+             Leia N1
+             Leia N2
+             Media - ( N1 + N2 ) /2
+             Escreva Nome,N1,N2,Media 
+             Escreva "Desejo continuar (s/N) ?"
+             Leia CapturaFlag
+        FIM ENQUANTO 
+FIM
+CapturaFlag = "S" :>  Teste da variavel CapturaFlag para checar o valor inteiro prlo usuario ("s" ou "N") 
+
+Escreva "Deseja continuar (S/N)?"
+Leia CapturaFlag = Exibição da mensagem e leitura da sinalização do usuario (flag de resposta)
+
+
+EXEMPLO 3 - FLAG PREDETERMINADO 
+Vamos construir um algoritimo em pseudocódigo para ler o noome e duas notas de uma turma de alunos.Alpem disso,precisaremos calcular a média,bem como mostrar o nome,as dua snotas ea media de cada aluno.
+O programa vai finalizar quando o usuaio digitar a palavra FIM como conteudo da variavel Nome,em vez de um nome valido.
+Desse modo ,predeterminamos que o programa ira terminar quando o usuario digitar a palavra FIM no luga do nome deum aluno .
+
+PROGRAMA CalcularMedia 
+   VAR 
+      Nome : literal 
+      N1, N2, Media : inteiro 
+      N1 = 0 
+      N2 = 0 
+      Media - 0 
+INICIO 
+      Escreva "Digite o nome ou FIM para sair "
+      Ler Nome 
+      ENQUANTO Nome <>"FIM" FAÇA
+      SE Nome <>"FIM"
+          Escreva "Digitw N1,N2"
+          Leia N1 
+          Leia N2 
+          Media  - (N1 + N2 ) /2 
+          Escreva = Nome,N1,N2 ,Media 
+          Escreva " Digite o nome ou FIM para sair :"
+          Ler Nome
+     FIM SE 
+     FIM ENQUANTO
+FIM 
+Nome <>"FIM" :> Teste da variavel Nome para checar se foi inserido um valor valido ou termo FIM (Flag preterminado)     
+
+Escreva " Digite o nome ou FIM para sair :"
+Ler Nome  :> Exibição da mensagem e leitura da variavel Nome 
